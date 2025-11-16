@@ -1,0 +1,281 @@
+@media screen and (max-width: 599px) {
+    /* all */
+    .wrapper {
+        width: calc(100% - 32px);
+    }    
+
+    h2 {
+        font-size: 32px;
+    }
+
+    /* index.html */
+    /* header */
+    .hamburger {
+        top: 16px;
+        right: 32px;
+    }
+
+    .menu_nav {
+        gap: 32px;
+    }
+
+    /* fv */
+    .fv_top {
+        padding: 32px 32px;
+    }
+
+    .logo_bottom {
+        gap: 12px;
+    }
+    
+    .logo_line {
+        width: 32px;
+    }
+
+    .logo_text {
+        font-size: 14px;
+    }
+
+    .fv_list {
+        display: none;
+    }
+
+    .fv_img {
+        bottom: -100px;
+        height: 400px;
+    }
+
+    .fv_circle {
+        width: 50vw;
+    }
+
+    /* works */
+    .works {
+        gap: 80px;
+        width: calc(100% - 32px);
+        margin-top: 100px;
+        padding: 80px 16px;
+    }
+
+    .works_list {
+        gap: 60px;
+    }
+
+    .works_item {
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .works_left,.works_right {
+        width: 100%;
+    }
+
+    .works_detail {
+        margin-top: 32px;
+    }
+
+    /* about */
+    .about {
+        gap: 80px;
+        padding: 80px 16px;
+    }
+
+    .about_item {
+        flex-direction: column;
+        gap: 32px;
+        padding: 0 16px;
+    }
+
+    .about_left {
+        width: 100%;
+    }
+
+    .about_name {
+        font-size: 24px;
+    }
+
+    /* contact */
+    .contact {
+        gap: 80px;
+        width: calc(100% - 32px);
+        padding: 80px 16px;
+    }
+
+    .contact_mail {
+        gap: 8px;
+        padding: 12px 32px;
+        font-size: 20px;
+    }
+
+    /* footer */
+    .footer {
+        padding: 12px 0;
+    }
+
+    /* works.html */
+    /* heading */
+    .heading {
+        padding: 80px 32px;
+    }
+
+    .circle {
+        width: 50vw;
+    }
+
+    /* wo_list */
+    .wo_works_list {
+        border-bottom: 1px solid #4C411E;
+    }
+
+    .wo_works_item {
+        flex-direction: column;
+        gap: 12px;
+        padding: 0 16px 80px;
+        border-bottom: none;
+    }
+
+    .wo_works_left,.wo_works_right {
+        width: 100%;
+    }
+
+    .wo_works_list .works_detail {
+        margin-top: 0;
+    }
+
+    .back {
+        padding: 60px 0;
+    }
+
+    /* about.html */
+    /* about me */
+    .ab_about_item {
+        flex-direction: column-reverse;
+        gap: 32px;
+        width: calc(100% - 32px);
+        padding: 0 16px 80px;
+    }
+
+    .ab_about_left {
+        gap: 32px;
+        width: 100%;
+    }
+
+    .ab_about_right {
+        width: 100%;
+        aspect-ratio: 4/3;
+    }
+
+    /* skill */
+    .skill {
+        gap: 80px;
+        padding: 80px 16px;
+    }
+
+    .skill_list {
+        flex-direction: column;
+        gap: 60px;
+        padding: 0;
+    }
+
+    .br_sp {
+        display: inline;
+    }
+
+    /* strength */
+    .strength {
+        flex-direction: column;
+        gap: 80px;
+        padding: 80px 16px;
+    }
+
+    .strength .se_title {
+        max-width: 100%;
+    }
+
+    .strength_item {
+        padding: 0;
+    }
+
+    .strength_item:nth-child(2) {
+        padding: 0;
+        border: none;
+    }
+
+    /* biography */
+    .biography {
+        gap: 80px;
+        width: calc(100% - 32px);
+        padding: 80px 16px;
+    }
+
+    .biography_item dl {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    /* like */
+    .like {
+        gap: 80px;
+        width: calc(100% - 32px);
+        padding: 80px 16px;
+    }
+
+    .like_list {
+        gap: 60px;
+        padding: 0 16px;
+    }
+
+    /* works-production */
+    /* production */
+    .production {
+        gap: 80px;
+        width: calc(100% - 32px);
+        padding: 0 16px 80px;
+    }
+
+    .production_top {
+        flex-direction: column-reverse;
+        gap: 32px;
+    }
+
+    .production_title {
+        font-size: 24px;
+    }
+
+    .production_item dl {
+        flex-direction: column;
+        gap: 12px;
+        padding: 32px 16px;
+    }
+
+    .production_item dt {
+        width: 100%;
+    }
+
+    /* iframe */
+    .preview {
+        display: none;
+    }
+
+    /* sp_preview */
+    .sp_preview {
+        display: flex;
+    }
+
+    /* other works */
+    .other {
+        gap: 80px;
+        width: calc(100% - 32px);
+        padding: 80px 16px;
+    }
+
+    .other_list {
+        gap: 60px;
+    }
+
+    .other_title {
+        margin-bottom: 12px;
+    }
+
+
+}
