@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>（有）三正金型 | 金型修理・設計変更・改造・メンテナンス</title>
+    <meta name="description" />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <header id="header" class="header">
+      <div class="header_inner">
+        <div class="header_logo">
+          <a href="index.html">
+            <img src="images/sansei-logo.png" alt="三正金型のロゴ" />
+          </a>
+        </div>
+        <nav id="gnav" class="gnav">
+          <ul>
+            <li class="un_line">
+              <a href="index.html">HOME</a>
+            </li>
+            <li class="un_line">
+              <a href="service.html">事業内容</a>
+            </li>
+            <li class="un_line">
+              <a href="facility.html">設備紹介</a>
+            </li>
+            <li class="un_line">
+              <a href="company.html">会社情報</a>
+            </li>
+            <li>
+              <a href="contact.html" class="header_button button btn_yellow"
+                >お問い合わせ</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div id="hamburger" class="hamburger">
+          <span></span><span></span><span></span>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="heading">
+        <hgroup class="heading_title slidein-right">
+          <p>お問い合わせ</p>
+          <h2 class="en">contact</h2>
+        </hgroup>
+      </div>
+      <div class="con_contact2">
+        <hgroup class="con_title fadein">
+          <h3>お問い合わせ<br class="br" />フォーム</h3>
+          <p class="en">contact form</p>
+        </hgroup>
+        <p class="con_text fadein">
+          お問い合わせは下記フォームよりお願いいたします。<br />
+          必要事項をご入力の上、「送信する」ボタンをクリックしてください。後ほど、担当より折り返しご連絡させていただきます。
+        </p>
+        <form
+          id="contact-form"
+          class="form fadein"
+          action="sendmail.php"
+          method="post"
+        >
+          <div class="form_item">
+            <label for="company">
+              会社名
+              <span class="required">必須</span>
+            </label>
+            <input type="text" name="company" id="company" required />
+          </div>
+
+          <div class="form_item">
+            <label for="name">
+              お名前
+              <span class="required">必須</span>
+            </label>
+            <input type="text" name="name" id="name" required />
+          </div>
+
+          <div class="form_item">
+            <label for="email">
+              メールアドレス
+              <span class="required">必須</span>
+            </label>
+            <input type="email" name="email" id="email" required />
+          </div>
+
+          <div class="form_item">
+            <label for="message">
+              お問い合わせ内容
+              <span class="required">必須</span>
+            </label>
+            <textarea name="message" id="message" rows="5" required></textarea>
+          </div>
+
+          <div class="privacy">
+            <div class="privacy_text">
+              <h4>個人情報の取り扱いについて</h4>
+              <ul>
+                <li>
+                  当サイトでは、お問い合わせフォームを通じて取得した氏名、メールアドレスなどの個人情報を、お問い合わせへの回答および必要なご連絡のためにのみ利用します。
+                </li>
+                <li>取得した個人情報は、第三者に提供することはありません。</li>
+                <li>
+                  当サイトに関するお問い合わせは sansei-k@h7.dion.ne.jp
+                  までお願いいたします。
+                </li>
+              </ul>
+            </div>
+            <label class="checkbox">
+              <input type="checkbox" name="agree" required />
+              <span class="underline">個人情報の取り扱い</span>に同意します
+            </label>
+          </div>
+          <div class="form_btn">
+            <button type="submit" class="button btn_yellow">
+              上記の内容で送信する　→
+            </button>
+          </div>
+        </form>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer_inner">
+        <div class="footer_left">
+          <a href="index.html" class="footer_logo">
+            <img src="images/sansei-logo.png" alt="" />
+          </a>
+          <p class="footer_add">
+            有限会社三正金型<br />
+            〒370-1301　群馬県高崎市新町1437-1<br />
+            TEL / 0274-42-6662　<br class="br" />FAX / 0274-42-5523
+          </p>
+        </div>
+        <div class="footer_right">
+          <nav class="footer_nav">
+            <ul>
+              <li class="un_line">
+                <a href="index.html">HOME</a>
+              </li>
+              <li class="un_line">
+                <a href="service.html">事業内容</a>
+              </li>
+              <li class="un_line">
+                <a href="facility.html">設備紹介</a>
+              </li>
+              <li class="un_line">
+                <a href="company.html">会社情報</a>
+              </li>
+              <li class="un_line">
+                <a href="contact.html">お問い合わせ</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="sns_icon">
+            <a href="https://www.instagram.com/sansei.kanagata/">
+              <img
+                src="images/Instagram_icon.png"
+                alt="インスタグラムのアイコン"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer_bottom">
+        <div class="copyright">
+          <p>© 2025 Sansei Mold Y.K. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- EmailJS -->
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+    <script src="js/script.js" defer></script>
+  </body>
+</html>

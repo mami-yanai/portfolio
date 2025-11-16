@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Koti cafe</title>
+    <!-- ノーマライズCSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <!-- CSSファイル -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=M+PLUS+Rounded+1c&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- header -->
+    <header class="header">
+      <div class="header__inner">
+        <h1 class="header__logo">Koti Cafe</h1>
+        <nav class="header__nav">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="#top" class="nav__link">TOP</a></li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">ABOUT</a>
+            </li>
+            <li class="nav__item">
+              <a href="#menu" class="nav__link">MENU</a>
+            </li>
+            <li class="nav__item">
+              <a href="#access" class="nav__link">ACCESS</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- hero -->
+    <section class="hero" id="top">
+      <div class="hero__img">
+        <img src="images/hero-img.jpg" />
+      </div>
+      <div class="object01">
+        <img src="images/ob-01.png" alt="" />
+      </div>
+      <div class="scrollBar">
+        <img src="images/scroll-bar.png" />
+      </div>
+    </section>
+
+    <!-- about -->
+    <section class="about" id="about">
+      <div class="about__inner animate">
+        <div class="about__img">
+          <img
+            src="images/cafe-exterior.png"
+            alt="exterior image"
+            class="about__img01"
+          />
+        </div>
+        <div class="about__text">
+          <p class="main-copy">
+            <ruby>Koti<rt>おうち</rt></ruby>
+            <span>で、ひとやすみ。</span>
+          </p>
+          <p class="sub-copy">
+            Koti（コティ）は<br />
+            フィンランド語で「家」。<br />
+            <br />
+            まるでおうちにいるようにくつろげる、<br />
+            あたたかな空間をお届けします。<br />
+            <br />
+            北欧の家具に囲まれながら、<br />
+            コーヒーの豊かな香りや、<br />
+            やさしい甘さのスイーツを味わって、<br />
+            ゆったりとしたひとときを。<br />
+            <br />
+            あなたの日常を、ちょっと特別にします。
+          </p>
+        </div>
+      </div>
+      <div class="object02">
+        <img src="images/ob-02.png" alt="" />
+      </div>
+      <div class="object03">
+        <img src="images/ob-03.png" alt="" />
+      </div>
+      <div class="objectHo">
+        <img src="images/house.png" alt="" />
+      </div>
+    </section>
+
+    <!-- menu -->
+    <section class="menu" id="menu">
+      <div class="menu__heading heading animate">
+        <h2 class="heading__title">menu</h2>
+        <p class="heading__text">こだわりのコーヒーと、やさしいスイーツを。</p>
+      </div>
+      <ul class="menu__list">
+        <li class="menu__item animate">
+          <h3 class="list__title">DRINK<span>-のみもの-</span></h3>
+          <ul class="item__inner">
+            <li class="item__box">
+              <img src="images/coffee.jpg" class="item__img" />
+              <p class="item__text">北欧ブレンドコーヒー(Hot)</p>
+              <p class="item__price">¥480</p>
+            </li>
+            <li class="item__box">
+              <img src="images/cafelatte.jpg" class="item__img" />
+              <p class="item__text">カフェラテ(Hot/Ice)</p>
+              <p class="item__price">¥550</p>
+            </li>
+            <li class="item__box">
+              <img src="images/milktea.png" class="item__img" />
+              <p class="item__text">スパイスミルクティー(Hot/Ice)</p>
+              <p class="item__price">¥580</p>
+            </li>
+            <li class="item__box">
+              <img src="images/elderflower-soda.png" class="item__img" />
+              <p class="item__text">エルダーフラワーソーダ(Ice)</p>
+              <p class="item__price">¥600</p>
+            </li>
+          </ul>
+        </li>
+        <li class="menu__item animate">
+          <h3 class="list__title">SWEETS<span>-スイーツ-</span></h3>
+          <ul class="item__inner">
+            <li class="item__box">
+              <img src="images/cinnamonroll.png" class="item__img" />
+              <p class="item__text">フィンランド風シナモンロール</p>
+              <p class="item__price">¥480</p>
+            </li>
+            <li class="item__box">
+              <img src="images/carrot-cake.png" class="item__img" />
+              <p class="item__text">キャロットケーキ</p>
+              <p class="item__price">¥520</p>
+            </li>
+            <li class="item__box">
+              <img src="images/parfait.png" class="item__img" />
+              <p class="item__text">ベリーパフェ</p>
+              <p class="item__price">¥650</p>
+            </li>
+            <li class="item__box">
+              <img src="images/cookie.png" class="item__img" />
+              <p class="item__text">カルダモンクッキー</p>
+              <p class="item__price">¥350</p>
+            </li>
+          </ul>
+        </li>
+        <li class="menu__item animate">
+          <h3 class="list__title">FOOD<span>-たべもの-</span></h3>
+          <ul class="item__inner">
+            <li class="item__box">
+              <img src="images/sandwich.png" class="item__img" />
+              <p class="item__text">サーモン＆クリームチーズサンド</p>
+              <p class="item__price">¥750</p>
+            </li>
+            <li class="item__box">
+              <img src="images/meatball.png" class="item__img" />
+              <p class="item__text">ミートボールプレート</p>
+              <p class="item__price">¥1,050</p>
+            </li>
+            <li class="item__box">
+              <img src="images/soup.png" class="item__img" />
+              <p class="item__text">季節の野菜スープ<span>(パン付き)</span></p>
+              <p class="item__price">¥680</p>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <!-- access -->
+    <section class="access" id="access">
+      <div class="access__heading heading animate">
+        <h2 class="heading__title">access</h2>
+        <p class="heading__text">店舗情報</p>
+      </div>
+      <div class="access__inner animate">
+        <div class="access__img">
+          <img src="images/map.jpeg" />
+        </div>
+        <div class="access__info">
+          <div class="info__item">
+            <p class="info__text">
+              <span class="info__text01">OPEN</span>
+              <span class="info__text02">10:00 - 17:00(L.O.16:30)</span>
+            </p>
+            <p class="info__text">
+              <span class="info__text01">CLOSE</span>
+              <span class="info__text02 info__jp">毎週火曜日</span>
+            </p>
+          </div>
+          <div class="info__item">
+            <p class="info__text">
+              <span class="info__text01">ADDRESS</span>
+              <span class="info__text02">〒123-4567</span>
+            </p>
+            <p class="info__text">
+              <span class="info__text01"></span>
+              <span class="info__text02 info__jp">群馬県群馬市群馬町1-2-3</span>
+            </p>
+            <p class="info__text">
+              <span class="info__text01">TEL</span>
+              <span class="info__text02">012-345-6789</span>
+            </p>
+            <p class="info__text">
+              <span class="info__text01">MAIL</span>
+              <span class="info__text02">koti-cafe@mail.com</span>
+            </p>
+          </div>
+          <div class="info__item">
+            <ul class="sns__list">
+              <li class="sns__item">
+                <a href="#"><img src="images/x-icon.png" /></a>
+              </li>
+              <li class="sns__item">
+                <a href="#"><img src="images/insta-icon.png" /></a>
+              </li>
+              <li class="sns__item">
+                <a href="#"><img src="images/facebook-icon.png" /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="object04">
+        <img src="images/ob-04.png" alt="" />
+      </div>
+      <div class="object05">
+        <img src="images/ob-05.png" alt="" />
+      </div>
+      <div class="objectBi">
+        <img src="images/bird.png" alt="" />
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer__inner">
+        <h1 class="footer__logo">Koti Cafe</h1>
+        <nav class="footer__nav">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="#top" class="nav__link">TOP</a></li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">ABOUT</a>
+            </li>
+            <li class="nav__item">
+              <a href="#menu" class="nav__link">MENU</a>
+            </li>
+            <li class="nav__item">
+              <a href="#access" class="nav__link">ACCESS</a>
+            </li>
+          </ul>
+        </nav>
+        <p class="footer__copyright">&copy; Koti Cafe</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

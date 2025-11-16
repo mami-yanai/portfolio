@@ -1,0 +1,377 @@
+/* =========================
+   index.html
+   ========================= */
+@media screen and (max-width: 1024px) {
+  .slidein-left {
+    transform: translateX(50px);
+  }
+
+  .header {
+    padding: 0 20px;
+  }
+
+  .header_inner {
+    margin: 0;
+  }
+
+  .hamburger {
+    display: block;
+    z-index: 1000;
+  }
+
+  .gnav {
+    display: block;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.5s ease;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    margin-top: 60px;
+    z-index: 1000;
+  }
+
+  .gnav.open {
+    display: block;
+    max-height: 1000px;
+  }
+
+  .gnav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 40px 0;
+    background: url(../../images/hero-bg.png) no-repeat center bottom;
+    background-size: cover;
+  }
+
+  .gnav ul li {
+    font-size: 20px;
+  }
+
+  .hero_image {
+    width: calc(100% - 32px);
+    height: 65%;
+    margin: 60px 16px;
+  }
+
+  .hero_image img {
+    width: 100%;
+  }
+
+  .hero_copy {
+    width: 80%;
+    margin-top: 72vh;
+    margin-left: 20px;
+  }
+
+  .about::before {
+    top: -10px;
+    left: -10px;
+    font-size: clamp(40px, 20vw, 120px);
+  }
+
+  .about::after {
+    right: -20px;
+    bottom: -10px;
+    width: 60%;
+    height: clamp(200px, 28vw, 260px);
+  }
+
+  .about_inner {
+    margin: 100px 20px;
+    gap: 20px;
+    flex-direction: column-reverse;
+  }
+
+  .about_img { padding-top: 0; }
+}
+
+@media screen and (max-width: 768px) {
+  .about_img {
+    width: 80%;
+  }
+  
+  .section_title {
+    margin-bottom: 32px;
+  }
+
+  .service {
+    padding: 40px 0;
+  }
+
+  .service_item {
+    width: 100%;
+  }
+  
+  .service::before {
+    top: -10px;
+    left: -10px;
+  }
+
+  .service_list {
+    flex-direction: column;
+    gap: 1rem;
+    margin: 0 16px 32px;
+  }
+
+  .facility {
+    flex-direction: column;
+  }
+
+  .company {
+    padding: 40px 0;
+  }
+
+  .company::before {
+    top: -40px;
+    left: -10px;
+  }
+
+  .company_inner {
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .company_text {
+    align-items: center;
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .company_text .section_title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .company_text a {
+    margin-top: 32px;
+  }
+
+  .company_img {
+    margin-inline: 16px;
+  }
+
+  .contact {
+    aspect-ratio: 4/3;
+  }
+
+  .footer {
+    padding-top: 32px;
+  }
+
+  .footer_inner {
+    flex-direction: column;
+    margin: 0 16px;
+  }
+
+  .br {
+    display: inline;
+  }
+
+  .footer_right {
+    align-items: center;
+    margin: 16px 0 ;
+  }
+
+  .footer_nav {
+    display: none;
+  }
+
+  .footer_bottom {
+    padding: 16px 0;
+  }
+}
+
+/* =========================
+   subpage-heading
+   ========================= */
+@media screen and (max-width: 1024px) {
+  .heading {
+    margin-top: 60px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .heading {
+    background: url(../../images/hero-bg.png) no-repeat center bottom;
+    background-size: cover;
+  }
+}
+
+/* =========================
+   service.html
+   ========================= */
+@media screen and (max-width: 1024px) {
+  .s_service_text {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .s_service {
+    padding-block: 60px;
+  }
+
+  .s_service_inner {
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  .s_service_text {
+    width: 100%;
+  }
+
+  .s_title {
+    margin-bottom: 30px;
+  }
+
+  .s_service_img {
+    width: 100%;
+  }
+}
+
+/* =========================
+   facility.html
+   ========================= */
+@media screen and (max-width: 768px) {
+  .f_equipment,.f_track {
+    padding-block: 60px;
+  }
+
+  .f_list {
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 30px;
+  }
+
+  .f_track_inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+  }
+
+  .f_track_text {
+    margin-top: 30px;
+    font-size: 20px;
+  }
+
+  .f_track_img {
+    width: 100%;
+  }
+}
+
+/* =========================
+   company.html
+   ========================= */
+@media screen and (max-width: 768px) {
+  .com_outline,.com_history,.com_client {
+    padding-block: 60px;
+  }
+
+  .com_outline_list {
+    margin-top: 30px;
+  }
+
+  .com_outline_list dl {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .com_outline_list dt {
+    padding-left: 12px;
+  }
+
+  .com_outline_list ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #map {
+    scroll-margin-top: 20vh;
+  }
+
+  .com_history_inner {
+    gap: 30px;
+    margin: 30px 20px 0;
+  }
+
+  .com_history_text {
+    gap: 24px;
+  }
+
+  .com_history_text dl {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .com_history_text dt {
+    padding-left: 8px;
+  }
+}
+
+/* =========================
+   contact.html
+   ========================= */
+@media screen and (max-width: 1024px) {
+  .con_contact {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .con_contents {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .con_contact {
+    padding-block: 30px;
+  }
+}
+
+/* =========================
+   contact2.html
+   ========================= */
+@media screen and (max-width: 768px) {
+  .con_contact2 {
+    padding: 60px 0 0;
+  }
+
+  .form {
+    width: 100%;
+    gap: 30px;
+    padding: 30px 30px 60px 30px;
+  }
+
+  .form_item {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .form_item label {
+    justify-content: flex-start;
+    width: 100%;
+  }
+
+  .form_item input,textarea {
+    width: 100%;
+  }
+
+  .form_item textarea {
+    height: 200px;
+  }
+
+  .privacy {
+    margin-top: 30px;
+  }
+
+  .form_btn {
+    margin-top: 30px;
+  }
+}
